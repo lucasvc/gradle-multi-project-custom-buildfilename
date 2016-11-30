@@ -1,0 +1,11 @@
+rootProject.name = 'complete-custom-name'
+
+include ':client'
+include ':service'
+
+rootProject.children.each { project ->
+	if (!project.buildFile.exists()) {
+		project.buildFileName = "${project.name}.gradle"
+		assert project.buildFile.exists()
+	}
+}
