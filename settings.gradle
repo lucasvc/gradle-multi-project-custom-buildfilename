@@ -6,6 +6,7 @@ include ':service'
 rootProject.children.each { project ->
 	if (!project.buildFile.exists()) {
 		project.buildFileName = "${project.name}.gradle"
+		println "<settings> ${project}"
 		assert project.buildFile.exists()
 	}
 }
