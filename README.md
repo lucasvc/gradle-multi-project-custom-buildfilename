@@ -17,6 +17,6 @@ But when listing all the projects from main build script only the root project a
 :tasks
 ```
 
-Asked in [this thread from Gradle forums](https://discuss.gradle.org/TODO) if this is an expected behaviour.
+Asked in [this thread from Gradle forums](https://discuss.gradle.org/t/multi-project-using-custom-named-main-build-file/20657?u=lucasvc) if this is an expected behaviour.
 
 Tested with Gradle 3.0 and 3.2.1 (uploaded wrapper 3.2.1).
