@@ -1,1 +1,3 @@
 println "<custom> ${allprojects}"
+println "> rootProject.name: ${rootProject.name}"
+println "> project.name: ${project.name}"

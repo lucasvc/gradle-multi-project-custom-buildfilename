@@ -14,8 +14,14 @@ But when listing all the projects from main build script only the root project a
 <settings> :client
 <settings> :service
 <custom> [root project 'gradle-multi-project-custom-buildfilename']
+> rootProject.name: gradle-multi-project-custom-buildfilename
+> project.name: gradle-multi-project-custom-buildfilename
 :tasks
+...
 ```
+
+It does not apply the `rootProject.name` property neither.
+Does not work even adding the `--settings-file` flag to the command line.
 
 Asked in [this thread from Gradle forums](https://discuss.gradle.org/t/multi-project-using-custom-named-main-build-file/20657?u=lucasvc) if this is an expected behaviour.
 

@@ -1,4 +1,4 @@
-rootProject.name = 'complete-custom-name'
+rootProject.name = 'my-COMPLETE-super-NaMe'
 
 include ':client'
 include ':service'
